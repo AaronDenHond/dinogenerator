@@ -1,0 +1,39 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./dinoBackground2.jpg");
+  background-size: cover;
+  background-position: 30% 70%;
+   /* color: #fff; */
+   min-height: 100vh;
+   
+}
+
+.generator {
+  color:white;
+ display: grid;
+ place-items: center;
+ text-align: center;
+ 
+}
+
+ #dinoImage {
+    display: grid;
+    place-items: center;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+ }
+
+

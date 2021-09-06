@@ -22,7 +22,7 @@ async function getDinoImage() {
     let image = document.createElement("img");
     image.src = dinoImage;
     image.id = "dinoImage";
-    document.querySelector("body").appendChild(image);
+    document.querySelector(".generator").appendChild(image);
   
 }
 
